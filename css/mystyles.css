@@ -1,0 +1,32 @@
+#nav_logo {
+	height: 20;
+}
+
+footer {
+	text-align:center;
+	margin-top: 2%;
+}
+
+hr {
+	margin-bottom: 2%;
+}
+
+.jumbotron h1 {
+	text-align: center;
+	color: #1a8c8c;
+}
+
+.page-header h1 {
+	color: #1a8c8c;
+	text-indent: 10%;
+}
+
+.center-images img{
+	display: block;
+	margin: auto;
+	width: 90%;
+}
+
+hr {
+	width: 90%;
+}
