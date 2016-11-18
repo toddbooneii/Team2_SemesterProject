@@ -2,6 +2,12 @@
 	height: 20;
 }
 
+.navbar{ 
+	position:fixed; 
+	top:0; 
+	width:100%;
+}
+
 footer {
 	text-align:center;
 	margin-top: 2%;
