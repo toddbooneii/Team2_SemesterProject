@@ -4,6 +4,7 @@
 
 .navbar{ 
 	position:fixed; 
+	z-index:1;
 	top:0; 
 	width:100%;
 }
@@ -30,7 +31,7 @@ hr {
 .center-images img{
 	display: block;
 	margin: auto;
-	width: 90%;
+	width: 100%;
 }
 
 hr {
@@ -64,3 +65,34 @@ hr {
 .glyphicon, #nav {
 	font-size: 14px;
 }
+
+.products img {
+	height: 300px;
+	width: 500px;
+}
+
+/* Creates vertical divide in the products section */
+.row.vdivide.products [class*='col-']:not(:last-child):after {
+  background: #e0e0e0;
+  width: 0px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  min-height: 300px;
+}
+
+.packageHeading {
+	font-size: 25px; 
+	text-align: center;
+	color: #1a8c8c;
+}
+
+.packageDescription {
+	font-size: 25px; 
+	text-align: center;
+	color: #d3d3d3;
+}
+
