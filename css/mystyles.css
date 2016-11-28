@@ -31,7 +31,7 @@ hr {
 .center-images img{
 	display: block;
 	margin: auto;
-	width: 100%;
+	width: 90%;
 }
 
 hr {
@@ -42,6 +42,27 @@ hr {
 	font-size: 20px; 
 	text-align: center;
 	color: #1a8c8c;
+}
+
+
+.testimonials p{
+	font-size: 25px;
+	font-family:"HelveticaNeue Light", Microsoft Yi Baiti,times;
+	margin-left: 20%;
+	margin-right: 20%;
+	color:gray;
+}
+p.name {
+	color: #1a8c8c;
+	text-align: right;
+	font-size: 30px;
+	font-family:"HelveticaNeue Bold", Microsoft Yi Baiti,times;
+	font-weight: bold;
+	
+}
+
+.gallery img{
+	float: left; width: 30%; margin-left:2%; margin-right: 1%; margin-bottom: 3%;
 }
 
 /* Creates vertical divide in the contact us section */
@@ -95,4 +116,3 @@ hr {
 	text-align: center;
 	color: #d3d3d3;
 }
-
